@@ -1,0 +1,24 @@
+.start__container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.945);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+
+.start__container__tampon {
+    background-image: url("../../images/ui/tampon.png");
+    width: 100px;
+    aspect-ratio: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

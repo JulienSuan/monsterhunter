@@ -1,0 +1,14 @@
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\premierProjet.exe
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\premierProjet.deps.json
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\premierProjet.runtimeconfig.json
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\premierProjet.dll
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\premierProjet.pdb
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.AssemblyInfoInputs.cache
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.AssemblyInfo.cs
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.csproj.CoreCompileInputs.cache
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.dll
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\refint\premierProjet.dll
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.pdb
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\premierProjet.genruntimeconfig.cache
+D:\Dev\MonsterHunter\C#\premierProjet\obj\Debug\net7.0\ref\premierProjet.dll

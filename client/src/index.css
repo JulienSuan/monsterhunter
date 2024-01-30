@@ -1,0 +1,25 @@
+@font-face {
+  font-family: frank;
+  src: url("./fonts/PPFraktionMono-Regular.woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: frank;
+  src: url("./fonts/PPFraktionMono-Bold.woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: frank;
+  src: url("./fonts/PPFraktionMono-Light.woff2");
+  font-weight: 300;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: frank;
+}

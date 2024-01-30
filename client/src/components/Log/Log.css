@@ -1,0 +1,123 @@
+.log__container {
+    width: 650px;
+    aspect-ratio: 16/9;
+    background-color: rgba(0, 0, 0, 0.884);
+    backdrop-filter: blur(3px);
+    border-radius: .5em;
+    position: fixed;
+    z-index: 99;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.log__container > label {
+    position: relative;
+   color: whitesmoke;
+   position: absolute;
+}
+.log__container__input {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    position: relative;
+}
+.log__container__input > input{
+   background-color: transparent;
+   border: none;
+   padding:  1em 2em;
+   background-color: rgba(255, 255, 255, 0.068);
+   border-bottom: 1px rgba(255, 255, 255, 0.171) solid;
+   color: whitesmoke;
+   width: 1000%;
+   position: relative;
+}
+.log__container__input > input:focus{
+   outline: none;
+}
+
+.log__container__input > label {
+    position: absolute;
+    left: 1em;
+    transition: .2s;
+}
+.log__container__input > input:focus ~ label,
+.log__container__input > input:valid ~ label
+  {
+   transform: translate(-20%, -150%) scale(.8) ;
+}
+
+.log__container__input__icon {
+    position: absolute;
+    right: 1em;
+    /* background-color: red; */
+    padding: .5em;
+    width: 25;
+    height: 25;
+}
+
+.log__container__input:before {
+    bottom: 0;
+    left: 0;
+    z-index: 150;
+    height: 1px;
+    transition: all .4s;
+    width: 0%;
+    content: "";
+    position: absolute;
+}
+
+.log__container__input:hover:before {
+    content: "";
+    position: absolute;
+    background-color: #a78bfa;
+    bottom: 0;
+    left: 0;
+    z-index: 150;
+    height: 1px;
+    width: 100%;
+    transition: all .4s;
+
+}
+
+.gifscreen {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 0;
+}
+
+.log__container__button--active {
+    padding: 1em 2em;
+    border: 1px solid #a78bfa2c;
+    background-color: transparent;
+    color: #a78bfa2d;
+    cursor: pointer;
+    transition: .15s;
+    cursor: no-drop;
+}
+.log__container__button {
+    padding: 1em 2em;
+    border: 1px solid #a78bfa;
+    background-color: transparent;
+    color: #e1d9fcf3;
+    cursor: pointer;
+    background: #a78bfa38;
+    font-size: 1rem;
+    font-weight: normal;
+    transition: .15s;
+    border-radius: .25em;
+}
+.log__container__button:hover {
+    will-change:auto;
+    transform: scale(.95);
+}
+.log__container__button:active {
+    will-change:auto;
+    transform: scale(.90);
+}

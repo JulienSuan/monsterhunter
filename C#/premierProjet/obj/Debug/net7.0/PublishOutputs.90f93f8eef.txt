@@ -1,0 +1,5 @@
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\publish\premierProjet.exe
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\publish\premierProjet.dll
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\publish\premierProjet.deps.json
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\publish\premierProjet.runtimeconfig.json
+D:\Dev\MonsterHunter\C#\premierProjet\bin\Debug\net7.0\publish\premierProjet.pdb
